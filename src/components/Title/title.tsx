@@ -1,4 +1,6 @@
-function Title(props: any) {
+import { ITitle } from '../../constants';
+
+function Title(props: ITitle) {
     const { title, content } = props;
     return (
         <div>

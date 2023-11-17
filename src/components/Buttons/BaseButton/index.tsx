@@ -1,10 +1,10 @@
 import classes from './style.module.css';
 
 function Button(props: any) {
-    const { onClick } = props;
+    const { onClick, content, className = classes.button, style = '' } = props;
     return (
-        <button onClick={onClick} className={classes.button}>
-            Continue
+        <button style={style} onClick={onClick} className={className}>
+            {content}
         </button>
     );
 }

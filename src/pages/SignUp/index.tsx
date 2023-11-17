@@ -91,7 +91,13 @@ function SignUp() {
                             marginTop: '2rem',
                         }}
                     >
-                        <Button onClick={stepHandler} />
+                        <Button
+                            style={{
+                                width: currentStep === 1 ? '15rem' : '100%',
+                            }}
+                            content="Continue"
+                            onClick={stepHandler}
+                        />
                     </div>
                 </div>
             </div>

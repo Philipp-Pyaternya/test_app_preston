@@ -1,7 +1,7 @@
 .card {
-    border-color: lightgray;
     border: 2px;
     border-style: dashed;
+    border-color: lightgrey;
     border-radius: 0.7rem;
     padding: 2rem 4rem;
     background: rgba(216, 216, 229, 0.2);

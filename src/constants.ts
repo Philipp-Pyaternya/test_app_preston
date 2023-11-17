@@ -1,4 +1,5 @@
 export interface IStep {
+    steps?: string,
     step: string;
     currentStep: string;
 }
@@ -21,4 +22,9 @@ export interface ITableList {
     link: string;
     source: string;
     action: string;
+}
+
+export interface ITitle {
+    title: string;
+    content: string;
 }
