@@ -1,0 +1,25 @@
+.button {
+    background: #3e97ff;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: none;
+    width: auto;
+    max-width: 15rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #4591e7;
+}
+
+.button,
+.buttonSelect {
+    border-color: aqua;
+}

@@ -1,0 +1,28 @@
+.tableRow {
+    /* border: 2px solid lightgrey; */
+    text-align: center;
+    margin: 1rem 0px;
+    border-bottom: 2px solid red;
+}
+
+.tableDefines {
+    /* padding: 0.5rem; */
+    justify-content: center;
+}
+
+.actionDel,
+.actionRem {
+    border-radius: 0.5rem;
+    /* width: 100px; */
+    padding: 0.8rem 0rem;
+}
+
+.actionDel {
+    color: rgba(217, 33, 78, 1);
+    background: rgba(255, 245, 248, 1);
+}
+
+.actionRem {
+    color: rgba(80, 205, 137, 1);
+    background: rgba(232, 255, 243, 1);
+}

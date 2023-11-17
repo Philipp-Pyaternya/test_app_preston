@@ -1,0 +1,17 @@
+.sideBarItem {
+    display: flex;
+    align-items: center;
+    padding: 0.3rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.sideBarItem:hover {
+    color: rgba(62, 151, 255, 1);
+    border-radius: 0.5rem;
+    background: rgba(238, 246, 255, 1);
+}
+
+.sideBarItemIcon {
+    margin-right: 1rem;
+}

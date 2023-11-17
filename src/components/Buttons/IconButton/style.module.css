@@ -1,0 +1,25 @@
+.card {
+    border-color: lightgray;
+    border: 2px;
+    border-style: dashed;
+    border-radius: 0.7rem;
+    padding: 2rem 4rem;
+    background: rgba(216, 216, 229, 0.2);
+    margin: 0px 1rem;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.card:hover {
+    background: rgba(199, 199, 245, 0.2);
+}
+
+.card:focus {
+    border-color: #006cea;
+}
+
+.cardContent {
+    /* background: red; */
+    display: flex;
+    margin-left: 1rem;
+}

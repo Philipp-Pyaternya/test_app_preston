@@ -1,0 +1,13 @@
+.table {
+    /* background: lightblue; */
+    width: 100%;
+    margin-top: 1rem;
+    background: white;
+    border-radius: 2%;
+    padding: 0.5rem;
+}
+
+.tableHead {
+    border: 2px solid lightgray;
+    color: #a1a5b7;
+}

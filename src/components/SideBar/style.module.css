@@ -1,0 +1,12 @@
+.sideBar {
+    padding: 1rem;
+    width: auto;
+    max-width: 20rem;
+    height: 120vh;
+
+    position: absolute;
+    left: 0;
+    margin-top: 3rem;
+    background: white;
+    border-right: 2px solid lightgrey;
+}

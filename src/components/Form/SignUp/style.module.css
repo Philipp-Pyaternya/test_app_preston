@@ -1,0 +1,31 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    /* height: 35rem; */
+}
+
+.topSection {
+}
+
+.middleSection {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    outline: none;
+    border: 2px solid lightgray;
+    margin: 1rem;
+}
+
+.bottomSection {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+.checkerContent {
+    margin-left: 1rem;
+}

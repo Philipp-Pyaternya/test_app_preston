@@ -1,0 +1,35 @@
+input[type='checkbox'] {
+    appearance: none;
+    background-color: rgba(241, 241, 242, 1);
+    border: none;
+    width: 32px;
+    height: 32px;
+    margin: 0;
+    vertical-align: middle;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+input[type='checkbox']::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type='checkbox']:not(:checked)::before {
+    content: '✔';
+    color: transparent;
+}
+
+/* Стили для выбранного чекбокса */
+input[type='checkbox']:checked::before {
+    content: 'V';
+    color: grey;
+}
+
+input[type='checkbox']:focus {
+    outline: none;
+}

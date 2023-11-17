@@ -1,0 +1,38 @@
+.card {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+    /* padding: 0rem 6rem; */
+}
+
+.cardUp,
+.cardDown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 2rem;
+    font-family: Inter;
+}
+
+.cardUp {
+    color: #181c32;
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 34px; /* 100% */
+    letter-spacing: -0.68px;
+}
+
+.cardDown {
+    color: #5e6278;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px; /* 100% */
+}
+
+.cardIcon {
+    width: 3rem;
+    height: 3rem;
+}
