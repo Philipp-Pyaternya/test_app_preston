@@ -99,6 +99,27 @@ function SignUp() {
                             onClick={stepHandler}
                         />
                     </div>
+                    {currentStep === 2 && (
+                        <div
+                            style={{
+                                display: 'flex',
+                                justifyContent: 'center',
+                            }}
+                        >
+                            <p>
+                                Already have an Account?{' '}
+                                <a
+                                    style={{
+                                        textDecoration: 'none',
+                                        color: 'blue',
+                                    }}
+                                    href="/#"
+                                >
+                                    Sign in
+                                </a>
+                            </p>
+                        </div>
+                    )}
                 </div>
             </div>
         </div>
