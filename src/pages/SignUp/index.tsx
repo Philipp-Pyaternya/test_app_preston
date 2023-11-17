@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import SideStepBlock from '../../components/sideStepBlock';
+import SideStepBlock from '../../components/SideStepBlock/index';
 import { steper } from '../../fakeData';
 import { IStep } from '../../constants';
 import Title from '../../components/Title/title';
@@ -29,13 +29,11 @@ function SignUp() {
 
     const clickHandler = (e) => setCardCheck(e.target.innerText);
 
-    console.log('cardCheck', cardCheck);
-
     return (
-        <div className="signUpPage">
-            <div className="signUpPageRight">
+        <div className={styles.signUpPage}>
+            <div className={styles.signUpPageRight}>
                 <SVG
-                    className="logo"
+                    className={styles.logo}
                     src={`${process.env.PUBLIC_URL}/logo.svg`}
                 />
                 <div style={{ marginBottom: '10rem' }}>
@@ -53,7 +51,7 @@ function SignUp() {
                     </Link>
                 </div>
             </div>
-            <div className="signUpPageLeft">
+            <div className={styles.signUpPageLeft}>
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                     <div style={{ marginLeft: '2rem' }}>
                         <Title

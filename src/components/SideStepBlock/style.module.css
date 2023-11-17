@@ -1,0 +1,7 @@
+.sideStepper {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width: 100% !important;
+    margin-top: 3rem;
+}

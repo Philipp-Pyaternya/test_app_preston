@@ -13,3 +13,30 @@
     color: #50cd89;
     font-size: 20px;
 }
+
+.signUpPage {
+    display: flex;
+    height: 100vh;
+}
+
+.signUpPageRight {
+    background: #006cea;
+    background-image: url('../../../public/Effects.png');
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signUpPageLeft {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin-bottom: 4rem;
+}
